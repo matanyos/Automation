@@ -1,0 +1,15 @@
+{
+"googleemail":"mashvisortest@gmail.com",
+"googlepw":"Mpassword1",
+"website":"https://build.mashvisor.com",
+"existacc":"melqaisi+300@gmail.com",
+"existaccpw":"password",
+"log1p":"..Test status: PASSED (Signed in with Google Account)",
+"log1f":"..Test Status: FAILED (Did not Sign in with Google Account)",
+"log2p":".Test2 status: PASSED (Signed in with Existing Account)",
+"log2f":".Test2 Status: FAILED (Did not Sign in with Existing Account)",
+"log3p":".Test3 status: PASSED (Signed up as New User)",
+"log3f":".Test3 Status: FAILED (Did not Sign in as New User)"
+
+
+}

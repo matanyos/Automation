@@ -1,0 +1,23 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "Automation tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Desktop Automation tests"
+  },
+  "author": "Matanyos",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.2.3",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasmine-xml-reporter": "^1.1.0",
+    "maven": "^4.4.0",
+    "protractor": "^5.3.1"
+  }
+}

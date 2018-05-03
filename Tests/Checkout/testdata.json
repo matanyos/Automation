@@ -1,0 +1,23 @@
+{
+"card":"4242424242424242",
+"date":"12/22",
+"cvv":"123",
+"zip":"12345",
+"password":"password",
+"website":"https://build.mashvisor.com",
+"profile":"https://build.mashvisor.com/explore/#!/profile/",
+"product":"https://build.mashvisor.com/product/agents-features",
+"logbp":"Test Status: PASSED (Registered as a BASIC ACCOUNT)",
+"logbf":"Test Status: FAILED (Did not register as a BASIC ACCOUNT)",
+"logpp":"Test Status: PASSED (Registered as a PROFESSIONAL ACCOUNT)",
+"logpf":"Test Status: FAILED (Did not register as a PROFESSIONAL ACCOUNT)",
+"logep":"Test status: PASSED (Signed up as EXPERT ACCOUNT)",
+"logef":"Test Status: FAILED (Did not register as a EXPERT ACCOUNT)",
+"logapp":"Test Status: PASSED (Registered as a AGENT PRO)",
+"logapf":"Test Status: FAILED (Did not register as a AGENT PRO)",
+"logaep":"Test Status: PASSED (Registered as a AGENT EXPERT)",
+"logaef":"Test Status: FAILED (Did not register as a AGENT EXPERT)",
+"logatp":"Test Status: PASSED (Registered as a AGENT TOP)",
+"logatf":"Test Status: FAILED (Did not register as a AGENT TOP)"
+
+}

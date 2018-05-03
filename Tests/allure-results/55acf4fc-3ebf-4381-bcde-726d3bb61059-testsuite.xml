@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1525346529169' stop='1525346685309'>
+    <name>Authentication Module</name>
+    <title>Authentication Module</title>
+    <test-cases>
+        <test-case start='1525346529169' status='passed' stop='1525346583766'>
+            <name>------ Sign in with Google account</name>
+            <title>------ Sign in with Google account</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9516e5fa-8f01-4cec-92f6-544e5a22cb03-attachment.png' type='image/png' size='3003'/>
+            </attachments>
+        </test-case>
+        <test-case start='1525346583766' status='passed' stop='1525346610031'>
+            <name>------ Sign in with existing user</name>
+            <title>------ Sign in with existing user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='47f773e3-9d5d-4ab7-84a5-ea392522f02e-attachment.png' type='image/png' size='3003'/>
+            </attachments>
+        </test-case>
+        <test-case start='1525346610031' status='passed' stop='1525346646707'>
+            <name>------ Sign up as new user</name>
+            <title>------ Sign up as new user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='33609bd6-b88c-4bff-8942-4482e2227f43-attachment.png' type='image/png' size='3003'/>
+            </attachments>
+        </test-case>
+        <test-case start='1525346646707' status='passed' stop='1525346685293'>
+            <name>------ Forget Password</name>
+            <title>------ Forget Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e3ef9430-b627-4d7d-b430-8794bbd941cb-attachment.png' type='image/png' size='3003'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

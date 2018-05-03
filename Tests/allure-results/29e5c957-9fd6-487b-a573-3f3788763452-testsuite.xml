@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1525338628069' stop='1525338771897'>
+    <name>Authentication Module</name>
+    <title>Authentication Module</title>
+    <test-cases>
+        <test-case start='1525338628069' status='passed' stop='1525338670418'>
+            <name>------ Sign in with Google account</name>
+            <title>------ Sign in with Google account</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1525338670418' status='passed' stop='1525338702688'>
+            <name>------ Sign in with existing user</name>
+            <title>------ Sign in with existing user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1525338702689' status='passed' stop='1525338736435'>
+            <name>------ Sign up as new user</name>
+            <title>------ Sign up as new user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1525338736435' status='passed' stop='1525338771796'>
+            <name>------ Forget Password</name>
+            <title>------ Forget Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
