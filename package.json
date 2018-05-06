@@ -4,7 +4,8 @@
   "description": "Automation tests",
   "main": "index.js",
   "scripts": {
-    "test": "protractor"
+    "test": "protractor",
+    "webdriver-update": "webdriver-manager update"
   },
   "repository": {
     "type": "git",
@@ -13,11 +14,18 @@
   "author": "Matanyos",
   "license": "ISC",
   "dependencies": {
+    "browserify": "^16.2.0",
+    "buble": "^0.19.3",
+    "chromedriver": "^2.38.3",
     "colors": "^1.2.3",
+    "glob": "^7.1.2",
     "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-reporters": "^2.3.1",
     "jasmine-spec-reporter": "^4.2.1",
     "jasmine-xml-reporter": "^1.1.0",
+    "jasmine2-reporter": "^1.0.1",
     "maven": "^4.4.0",
-    "protractor": "^5.3.1"
+    "protractor": "^5.3.1",
+    "protractor-html-screenshot-reporter": "0.0.21"
   }
 }
