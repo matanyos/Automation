@@ -1,9 +1,12 @@
+
 describe('Authentication Module', function()
 {
     var json = require('./testdata.json');
     var colors = require('colors');
     var until = protractor.ExpectedConditions;
-    // Generating random emails for the tests
+/**
+ * @return {[type]}
+ */
     var getRandomEmail = function()
     {
         var strValues = "abcdefghijk123456789";
@@ -28,7 +31,12 @@ describe('Authentication Module', function()
     {
         browser.restart();
     });
-
+    /**
+     * 
+     * @param  {String}
+     * @param  {Function}
+     * @return {[void]}
+     */
     it('------ Sign in with Google account', function()
     {
         element(by.css('.btn-cta-secondary')).click();
@@ -36,11 +44,19 @@ describe('Authentication Module', function()
         browser.wait(until.visibilityOf($('#identifierId')), 30000); 
         element(by.id('identifierId')).sendKeys(json.googleemail);
         element(by.id('identifierNext')).click(); 
-        browser.sleep(2000);
+        browser.sleep(3000);
         element(by.css('.whsOnd.zHQkBf')).sendKeys(json.googlepw);
         browser.wait(until.visibilityOf($('#passwordNext')), 30000); 
         element(by.id('passwordNext')).click();
-        expect(browser.getCurrentUrl()).toContain("explore");       
+         browser.wait(until.urlContains('explore'), 30000).then(function()
+        {
+            expect(true).toEqual(true);
+        }, function()
+        {
+            expect(true).toEqual(false);
+        });
+
+        //browser.wait(until.expect(browser.getCurrentUrl()).toContain("explore") , 30000);
 
     });
     it('------ Sign in with existing user', function()

@@ -73,6 +73,7 @@ describe('Payment Module', function()
     it('------ Register and purchase an Agent Expert plan ', function()
     {
         var v = getRandomEmail();
+        browser.get(json.product);
         browser.executeScript(
             'document.querySelector(\'[href=\"/checkout#?role=agent&plan=Mashvisor_Expert_Agent_Quarterly\"]\').click()'
         );

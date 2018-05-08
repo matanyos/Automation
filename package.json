@@ -24,8 +24,10 @@
     "jasmine-spec-reporter": "^4.2.1",
     "jasmine-xml-reporter": "^1.1.0",
     "jasmine2-reporter": "^1.0.1",
+    "jsdoc": "^3.5.5",
     "maven": "^4.4.0",
     "protractor": "^5.3.1",
-    "protractor-html-screenshot-reporter": "0.0.21"
+    "protractor-html-screenshot-reporter": "0.0.21",
+    "selenium-chromedriver": "0.0.2"
   }
 }
